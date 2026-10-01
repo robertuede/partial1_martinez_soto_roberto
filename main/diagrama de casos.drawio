@@ -1,0 +1,97 @@
+<mxfile host="Electron">
+  <diagram name="Página-1" id="k_Ht0q04icuSUAKdvHDz">
+    <mxGraphModel dx="698" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Programador" vertex="1">
+          <mxGeometry height="140" width="89" x="175.5" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-8" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Cliente" vertex="1">
+          <mxGeometry height="140" width="89" x="400" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-9" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Vendedor de telefono" vertex="1">
+          <mxGeometry height="140" width="89" x="131" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="renta telefono" vertex="1">
+          <mxGeometry height="40" width="81" x="489" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="pone en renta telefono" vertex="1">
+          <mxGeometry height="40" width="81" x="229" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="actualiza la página" vertex="1">
+          <mxGeometry height="50" width="89" x="264.5" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="programa la página" vertex="1">
+          <mxGeometry height="50" width="81" x="70" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="compra telefono" vertex="1">
+          <mxGeometry height="40" width="81" x="489" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="vende telefono" vertex="1">
+          <mxGeometry height="40" width="81" x="319" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="demanda si no paga" vertex="1">
+          <mxGeometry height="40" width="81" x="41" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="compra telefonos de otros lados" vertex="1">
+          <mxGeometry height="40" width="81" x="41" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-19" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Cliente malicioso" vertex="1">
+          <mxGeometry height="140" width="89" x="470" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="No paga de manera apropiada" vertex="1">
+          <mxGeometry height="50" width="89" x="370" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Es demandado" vertex="1">
+          <mxGeometry height="50" width="89" x="580" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="cae en publicidad" vertex="1">
+          <mxGeometry height="40" width="81" x="319" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="paga a programadores" vertex="1">
+          <mxGeometry height="40" width="81" x="229" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-24" edge="1" parent="1" source="Dlpj1VRgHZHDSIbnFO1h-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="Dlpj1VRgHZHDSIbnFO1h-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-25" edge="1" parent="1" source="Dlpj1VRgHZHDSIbnFO1h-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="Dlpj1VRgHZHDSIbnFO1h-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-26" edge="1" parent="1" source="Dlpj1VRgHZHDSIbnFO1h-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="Dlpj1VRgHZHDSIbnFO1h-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-27" edge="1" parent="1" source="Dlpj1VRgHZHDSIbnFO1h-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" target="Dlpj1VRgHZHDSIbnFO1h-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-28" edge="1" parent="1" source="Dlpj1VRgHZHDSIbnFO1h-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" target="Dlpj1VRgHZHDSIbnFO1h-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-29" edge="1" parent="1" source="Dlpj1VRgHZHDSIbnFO1h-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.229;entryY=0.812;entryDx=0;entryDy=0;entryPerimeter=0;" target="Dlpj1VRgHZHDSIbnFO1h-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-30" edge="1" parent="1" source="Dlpj1VRgHZHDSIbnFO1h-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" target="Dlpj1VRgHZHDSIbnFO1h-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-31" edge="1" parent="1" source="Dlpj1VRgHZHDSIbnFO1h-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.629;entryY=0.762;entryDx=0;entryDy=0;entryPerimeter=0;" target="Dlpj1VRgHZHDSIbnFO1h-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-32" edge="1" parent="1" source="Dlpj1VRgHZHDSIbnFO1h-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.487;entryY=0.575;entryDx=0;entryDy=0;entryPerimeter=0;" target="Dlpj1VRgHZHDSIbnFO1h-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-33" edge="1" parent="1" source="Dlpj1VRgHZHDSIbnFO1h-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.533;entryY=0.612;entryDx=0;entryDy=0;entryPerimeter=0;" target="Dlpj1VRgHZHDSIbnFO1h-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-34" edge="1" parent="1" source="Dlpj1VRgHZHDSIbnFO1h-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="Dlpj1VRgHZHDSIbnFO1h-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-35" edge="1" parent="1" source="Dlpj1VRgHZHDSIbnFO1h-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="Dlpj1VRgHZHDSIbnFO1h-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlpj1VRgHZHDSIbnFO1h-36" parent="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="Diagrama de casos para la renta o venta de celulares nuevos o usados" vertex="1">
+          <mxGeometry height="26" width="80" x="273.5" y="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topics of Quality - System Diagrams</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent: #38bdf8;
+            --accent-hover: #0ea5e9;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            background-color: var(--card-bg);
+            border-radius: 1rem;
+            padding: 2.5rem;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        header h2 {
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+
+        .menu-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+        }
+
+        .menu-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            background: rgba(255, 255, 255, 0.02);
+            padding: 1rem;
+            border-radius: 0.75rem;
+            border: 1px solid rgba(255, 255, 255, 0.03);
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .menu-item:hover {
+            border-color: rgba(56, 189, 248, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .menu-item span {
+            font-size: 1.05rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: #0f172a;
+            font-weight: 600;
+            text-align: center;
+            text-decoration: none;
+            padding: 0.75rem 1.25rem;
+            border-radius: 0.5rem;
+            transition: background-color 0.2s ease, box-shadow 0.2s ease;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: var(--accent-hover);
+            box-shadow: 0 4px 12px rgba(56, 189, 248, 0.3);
+        }
+
+        footer {
+            margin-top: 2rem;
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h2>Quality Topics For Software Design</h2>
+            <h1>Diagrams</h1>
+        </header>
+        <center>
+        <img src="utdlogo.png" alt="Logo de la utd" width="350" height="100">
+        <br>
+        <br>
+        <a href="mario/index.html">mario</a>
+        <div class="menu-list">
+            <br>
+            <div class="menu-item">
+                <span>General diagram</span>
+                <center>
+                    <a href="rentaphone.html" class="btn">View General Diagram</a>
+                </center>
+            </div>
+
+            <div class="menu-item">
+                <span>Diagram money</span>
+                <center>
+                    <a href="diagram_money.html" class="btn">View Money Diagram</a>
+                </center>
+            </div>
+
+            <div class="menu-item">
+                <span>Diagram costumers</span>
+                <center>
+                    <a href="rentaphonebusiness.html" class="btn">View Customers Diagram</a>
+                </center>
+           </div> 
+            <div class="menu-item">
+                <span>Cases (all) diagram</span>
+                <center>
+                    <a href="diagrama_de_casos.html" class="btn">View cases diagram</a>
+                </center>
+            </div>
+        </div>
+
+        <footer>
+            Rent-A-Phone Project
+        </footer>
+        <br>
+        <center>
+        <header>
+            <h1>Student:</h1>   
+            <br>
+            <p>Roberto Martínez Soto</p>
+            <br>
+            <p>roberto_3171250014@utd.edu.mx</p>
+        </header>
+    </div>
+
+</body>
+</html>
